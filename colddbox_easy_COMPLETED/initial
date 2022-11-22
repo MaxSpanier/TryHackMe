@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Thu Oct  6 11:51:38 2022 as: nmap -sV -sC -oN initial 10.10.171.103
+Nmap scan report for 10.10.171.103
+Host is up (0.043s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-generator: WordPress 4.1.31
+|_http-title: ColddBox | One more machine
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  6 11:51:49 2022 -- 1 IP address (1 host up) scanned in 11.04 seconds
