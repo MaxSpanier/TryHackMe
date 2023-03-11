@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.cmd{
+			position: absolute;
+			margin-top: 5%;
+			margin-left: 40%;
+		}
+		body{
+			background-image: url(home.jpg);
+			height: 90vh;
+			background-size: cover;
+			background-position: center;
+		}
+		input[type="text"],select{
+			padding: 5px;
+		}
+		button{
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+<div class="cmd">
+	<form method="POST">
+    	<input id="comm" type="text" name="command" placeholder="Command">
+    	<button>Execute</button>
+    </form>
+</form>
+total 1132
+-rw-rw-r-- 1 charlie charley   65719 Sep 30  2020 home.jpg
+-rw-rw-r-- 1 charlie charley     695 Sep 30  2020 home.php
+-rw-rw-r-- 1 charlie charley 1060347 Sep 30  2020 image.png
+-rw-rw-r-- 1 charlie charley    1466 Oct  1  2020 index.html
+-rw-rw-r-- 1 charlie charley     273 Sep 29  2020 index.php.bak
+-rw-r--r-- 1 charlie charley    8496 Sep 30  2020 key_rev_key
+-rw-rw-r-- 1 charlie charley     303 Sep 30  2020 validate.php
+</body>
+</html>
