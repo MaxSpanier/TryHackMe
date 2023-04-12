@@ -1,0 +1,4 @@
+LFILE=/root/root.txt
+sudo iconv -f 8859_1 -t 8859_1 "$LFILE"
+
+IAmAScammer!123!
